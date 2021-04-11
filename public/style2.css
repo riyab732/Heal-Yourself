@@ -1,0 +1,117 @@
+.blurimage{
+    width:100%;
+    height:100%;
+    background-image:  url("https://tse1.mm.bing.net/th?id=OIP.9FrVG6UaIUy5-XadyDjIbwHaC1&pid=Api&P=0&w=443&h=170");
+    /* background-image:(rgba(243, 220, 220, 0.6)); */
+    background-size: cover;
+}
+.main{
+    border: 3px solid grey;
+    max-width:900px;
+    margin :auto;
+}
+.logo{
+    display :block;
+    margin:auto;
+    width: 80px;
+    height:10vh;
+    float:left;
+}
+nav{
+    margin-top:0px;
+    padding:0px;
+    max-width: 900px;
+    margin:auto;
+    background-image:repeating-linear-gradient(white,rgb(198, 230, 243));
+    
+}
+.blurcolor{
+    max-width: 900px;
+   
+    margin:auto;
+    height:75vh;
+    padding:0px;
+    /* opacity:0.4; */
+  overflow:scroll;
+  margin-bottom: 0px;  
+
+   background-repeat: no-repeat; 
+   background-size: 100% 100%;
+  background-position: center;
+ 
+}
+/* div.blurcolor{
+  background-image: url("http://ecr-community.org/wp-content/uploads/2017/09/shopping_cart1600.png");
+} */
+.container{
+    background:rgb(243, 246, 247,0.5);
+    width:100%;
+    margin:auto;
+    height:100%;
+    background-size: 100% 100%;
+}
+#inputmessage{
+    /* margin:auto; */
+    /* border:2px solid black; */
+    /* border-radius: 4px; */
+    margin-top:3vh;
+    height:40px;
+    width: 90%;
+    padding: 0px;
+    font-size: 20px;
+}
+#send-container{
+    /* display:block; */
+    margin:auto;
+    text-align:center;
+    max-width: 1000px;
+     display: flex;
+     /* border:2px solid black; */
+}
+.btn{
+    height:44px;
+    width:10%;
+    background-color:rgb(62, 193, 233);
+    /* border:2px solid black; */
+    /* border-radius: 4px; */
+    color:white;
+    font-size: 20px;
+    /* margin-top: 3px; */
+    margin-top:3vh;
+    padding:0px;
+}
+.message{
+background-color:cornsilk;
+border-radius: 6px;
+/* border:3px solid black; */
+/* box-shadow: 2px 2px 4px 4px rgba(248, 85, 235, 0.5); */
+color: black;
+width:24%;
+padding: 10px;
+word-wrap: break-word;
+margin:15px 15px;
+}
+div.right{
+    box-shadow: 2px 2px 4px 4px rgba(248, 85, 235, 0.5);
+    float: right;
+    clear: both;
+}
+div.left{
+    box-shadow: 2px 2px 4px 4px rgba(66, 216, 221, 0.5);
+    float: left;
+    clear: both;
+}
+body{
+/* background-image:  url("https://th.bing.com/th/id/Rcf3fe658c7965c4cb759045a2ac9a166?rik=WJ7xJO284bN1Ag&riu=http%3a%2f%2fwww.grandhotelgardone.it%2fimages%2fslide%2fshopping%2fslides_shopping.jpg&ehk=qYy43CjgY7UGBeRbsxhDGrqEeP6H%2fhWuhj2X3nQlsoA%3d&risl=&pid=ImgRaw"); */
+background-repeat: no-repeat;
+background-size: cover;
+margin:0px;
+background-image:(rgba(243, 220, 220, 0.6));
+}
+.send{
+    max-width: 900px;
+    margin:auto;
+    height:10vh;
+    background-image:repeating-linear-gradient(white,rgb(182, 226, 243)); 
+
+}

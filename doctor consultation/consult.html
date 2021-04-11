@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Doctor Consultation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="consult.css">
+    </head>
+    <body>
+    <nav>
+        <div id="brand">
+            <img src="https://cdn3.iconfinder.com/data/icons/hotel-and-spa-flat-1/64/lotus-flower-spa-512.png" id= "logo" alt="Healthy Me" title="Healthy Me" style = "margin-left:30px;">
+            <span style = "margin-left:10px;">Open Up!</span>
+        </div>
+        </a>
+   
+    </nav>
+    <div class="warpper fl">
+        <div class="main">
+            <div class="head">
+<p> Open Up!</p>
+</div>
+<div class="form fl">
+                <form name="login">
+                    <p class="name">
+Username<span class="s">*</span></p>
+<p>
+<input type="text" name="consuler" placeholder="Enter username" class="name-inp"></p>
+
+                    <p class="name">
+E mail ID<span class="s">*</span></p>
+<p>
+<input type="password" name="password" placeholder="Enter password" class="name-inp"></p>
+
+<input type="button" name="sb" onclick="enter(this.form)" class="sub" value="login"></p>
+
+</form>
+<div class="geust">
+    <br><br>
+    <a style="text-align: center;" href="/choice.html" class="sub"><h3>Enter As Guest</h3></a>
+</div>
+</div>
+</div>
+</div>
+<script>
+    function enter(form)
+    {
+     var x= form.consuler.value;
+    var p=form.password.value;
+    if(x=="OpenUp" && p =="letstalk"){
+        window.open('http://localhost:3000')
+    }
+    else {
+        alert("Incorrect username or password");
+    }}
+    
+ </script>
+</body>
+</html>
