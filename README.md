@@ -12,5 +12,5 @@ For data security, we are planning to add "CRYPTOGRAPHY" Hashmap Algorithm.Since
 2)A Blog/ Researched Content which will show the solution of various Mental Health Related Problems .
 Many a times, we are not able to share our problems, fears with our parents , friends or anyone, And we keep several things inside our mind and thinks a lot about it which affects our Mental Health! To break the stigma, we all need to be fully aware of mental health and well-being .
 
-#STEPS TO SETUP
+# STEPS TO SETUP
 1.Clone the repository. 2.type npm run dev in the terminal 3.open index.html file with live server.
